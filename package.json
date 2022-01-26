@@ -32,6 +32,7 @@
     "@angular/cli": "~12.2.3",
     "@angular/compiler-cli": "~12.2.0",
     "@briebug/jest-schematic": "^4.0.0",
+    "@ngrx/schematics": "^13.0.2",
     "@types/jest": "latest",
     "@types/node": "^12.11.1",
     "electron": "^16.0.7",
