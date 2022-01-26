@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+
+
+
+/* bulma import or update the angular.json file:
+-- angular.json
+"styles": [
+    "node_modules/bulma/css/bulma.css" <-- order matters, and there's mixed opinion on this approach, also the note the default comment
+    "src/styles.scss"
+],
+*/
+
+@import "../node_modules/bulma/bulma.sass";
