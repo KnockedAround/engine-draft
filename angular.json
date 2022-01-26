@@ -103,5 +103,8 @@
       }
     }
   },
-  "defaultProject": "hg-engine-draft"
+  "defaultProject": "hg-engine-draft",
+  "cli": {
+    "defaultCollection": "@ngrx/schematics"
+  }
 }
