@@ -1,0 +1,15 @@
+<div class="box">
+    <div class="field">
+      <label for="horsepower" class="label is-size-4">Horse Power</label>
+      <div class="control">
+        <input 
+            id="horsepower"
+            [formControl]="horsepower"
+            class="input" 
+            type="text" 
+            placeholder="e.g. 350">
+      </div>
+    </div>
+    <div *ngIf="horsepower.dirty && horsepower.errors?.['pattern']">How about trying to hit the number keys?</div>
+    <div *ngIf="horsepower.dirty && horsepower.errors?.['required']">Yeah, you kinda need this number...</div>
+</div>
