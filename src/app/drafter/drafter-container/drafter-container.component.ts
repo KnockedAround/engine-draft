@@ -6,9 +6,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DrafterContainerComponent implements OnInit {
 
-  constructor() { }
+  horsepower: number;
 
+  constructor() {
+    this.horsepower = 0;
+  }
+  
   ngOnInit(): void {
+  }
+
+  handleHorsepowerInput(hp: number): void {
+    if (!+hp) {
+      this.horsepower = 0;
+      return;
+    }
+
+    this.horsepower = hp;
   }
 
 }
