@@ -7,10 +7,12 @@ import { StoreModule } from '@ngrx/store';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from '../environments/environment';
 import { metaReducers, reducers } from './reducers';
+import { DrafterContainerComponent } from './drafter/drafter-container/drafter-container.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DrafterContainerComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,21 @@
+.hg-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+};
+
+.hg-header  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #E3192F;
+    color: #FFF;
+    height: 75px;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Cantarell', sans-serif;
+    box-shadow: 0px 2px 16px #484848;
+}

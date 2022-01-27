@@ -1,8 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 
+html {
+    overflow-y: hidden !important; // get rid of the horizontal scroll bar
+};
 
-
-
+.hg-full {
+    height: 100%;
+}
 
 /* bulma import or update the angular.json file:
 -- angular.json
@@ -12,4 +16,8 @@
 ],
 */
 
+// sheets
 @import "../node_modules/bulma/bulma.sass";
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:wght@700&family=Dongle:wght@300;700&display=swap');
