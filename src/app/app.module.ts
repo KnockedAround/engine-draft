@@ -10,12 +10,14 @@ import { metaReducers, reducers } from './reducers';
 import { DrafterContainerComponent } from './drafter/drafter-container/drafter-container.component';
 import { HorsepowerComponent } from './drafter/horsepower/horsepower.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { InjectorsComponent } from './drafter/injectors/injectors.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DrafterContainerComponent,
-    HorsepowerComponent
+    HorsepowerComponent,
+    InjectorsComponent
   ],
   imports: [
     BrowserModule,
